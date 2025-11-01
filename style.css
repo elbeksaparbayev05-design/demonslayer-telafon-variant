@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Carme", sans-serif;
+}
+/* footer */
+.telegram{
+    text-decoration: none;
+    border: 2px solid red;
+    color: red;
+    border-radius: 20px; 
+    padding: 5px; 
+    background-color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.telegram:hover{
+    color: blue;
+    border: 2px solid blue;
+    background-color: white;
+    transform: scale(1.02);
+    transition: transform 0.3s ;
+}
+.bar{
+    text-decoration: none; 
+    color: red; 
+    border: 1px solid red; 
+    border-radius: 20px; 
+    padding: 5px;
+}
+.bar:hover{
+    background-color: red;
+    color: black;
+}
+.qismlar{
+    display: flex;
+    align-items:center; 
+    gap: 20px; 
+    width: 100px;
+    height: 40px; 
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 5px; 
+    color: white; 
+    flex-wrap: wrap;
+}
+.qismlar:hover{
+    background-color: red;
+    color: white;
+}
+.qismlar:hover .active{
+    background-color: red;
+    color: white;
+}
+.qismlar:checked{
+    background-color: red;
+    color: white;
+}
